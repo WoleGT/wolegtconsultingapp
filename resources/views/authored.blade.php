@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <style>
+    body{
+         min-height: 100px; 
+         /* border: 1px red solid; */
+         background-color: rgba(186, 195, 189, 0.9); 
+         text-align: justify;
+    }
+
+    a{
+      text-decoration: none;
+      color: aquamarine;
+    }
+    a:hover{
+      color: green;
+      
+    }
+    .card{
+      background-color: gray;
+      width: 62%;
+    }
+    .card-title{
+      text-align: center;
+    }
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  </style>
+ </head>
+
+ <h1 style="padding: 10px; text-align: center;">Books <a href="https://www.google.com/search?q=authored+meaning&oq=authored&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyDggAEEUYJxg7GIAEGIoFMgcIARAAGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgwIBRAAGBQYhwIYgAQyDAgGEAAYFBiHAhiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDQwOThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">Authored</a> by Wole George-Taylor</h1>
+ 
+ <!-- cards -->
+ <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <img src="./image/book-2.jpg" class="img-fluid"   width="300" height="300">
+          <h5 class="card-title">The Cost of Obedience</h5>
+          <p class="card-text"><s>N</s>3,000 paperback</p>
+          <a href="image/THE COST OF OBEDIENCE.pdf" class="btn btn-outline-dark">Free Download</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <img src="image/book-1.jpg" class="img-fluid"  width="300" height="300">
+          <h5 class="card-title">My School of Prayer</h5>
+          <p class="card-text"><s>N</s>5,000 paperback</p>
+          <a href="image/My School of Prayer by Oluwole George-Taylor.pdf" class="btn btn-outline-dark">Free Download</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <img src=""  class="img-fluid"  width="200" height="300" alt="Book image">
+          <h5 class="card-title">Centrality of Anointing</h5>
+          <p class="card-text"><s>N</s>3,000 paperback</p>
+          <a href="image/My School of Prayer by Oluwole George-Taylor.pdf" class="btn btn-outline-dark">Free Download</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <img src="" class="img-fluid"    width="200" height="300" alt="Book image">
+          <h5 class="card-title">Walk before me</h5>
+          <p class="card-text"><s>N</s>2,000 paperback</p>
+          <a href="image/My School of Prayer by Oluwole George-Taylor.pdf" class="btn btn-outline-dark">Free Download</a>
+        </div>
+      </div>
+    </div>
+</div>
+  <!-- cards ends -->
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ </body>
+ </html>
+ 
+ 
+
+         
